@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dca7304bdb502300b64b9b81ca9619c9</block>
+        <connected_to>d4bced78-aa1d-467d-b7b9-bea90880ad63</connected_to>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">57ed784fdb502300b64b9b81ca9619dd</flow>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>3.4</order>
+        <parent_ui_id>4b3bd0fa-c580-4dfb-86fa-0fecf9cb18f1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 17:04:11</sys_created_on>
+        <sys_id>6bedb84fdb502300b64b9b81ca9619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_6bedb84fdb502300b64b9b81ca9619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 17:04:11</sys_updated_on>
+        <ui_id>70d7d8d8-fdcd-4dfd-9952-5c1ab47d2df1</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6bedb84fdb502300b64b9b81ca9619d5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6bedb84fdb502300b64b9b81ca9619d5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 17:04:11</sys_created_on>
+        <sys_id>abedb84fdb502300b64b9b81ca9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 17:04:11</sys_updated_on>
+        <value>Human Resources request</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6bedb84fdb502300b64b9b81ca9619d5</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 17:04:11</sys_created_on>
+        <sys_id>e7edb84fdb502300b64b9b81ca9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 17:04:11</sys_updated_on>
+        <value>{{Created_1.current.u_request_type}}=hr</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea1</variable>
+    </sys_variable_value>
+</record_update>
